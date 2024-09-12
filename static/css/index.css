@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    overflow-x: hidden;
+}
+
+
+#hero-container{
+    width: 100vw;
+    text-align: center;
+}
+
+#avatar{
+    margin-top: 50px;
+    height: 230px;
+    width: 230px;
+    
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hero-name{
+    margin-top: 20px;
+    font-size:40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#hero-title{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#link-container{
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+#master-link{
+    margin:20px 0;
+}
+
+.link-item{
+    padding: 10px 10px;
+}
+
+.mybutton{
+    height: 50px;
+    width: 350px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.mybutton:hover{
+    transform: scale(1.1);
+    rotate: 2deg;
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .mybutton{
+        width: 225px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
